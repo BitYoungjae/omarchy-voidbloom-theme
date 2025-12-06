@@ -1,0 +1,73 @@
+/* Deep Nebula Theme for Waybar */
+/* Deep Space (Dark Backgrounds) */
+@define-color oma0 #14141E;
+@define-color oma1 #1A1A2E;
+@define-color oma2 #2A2A45;
+@define-color oma3 #3E3E66;
+
+/* Starlight (Light Foregrounds) */
+@define-color oma4 #DDEEFF;
+@define-color oma5 #E6F2FF;
+@define-color oma6 #FFFFFF;
+
+/* Nebula Accents (Primary Highlights) */
+@define-color oma7 #9D7CD8;
+@define-color oma8 #BB99FF;
+@define-color oma9 #66CCFF;
+@define-color oma10 #4488FF;
+
+/* Cosmic Burst (Semantic Colors) */
+@define-color oma11 #FF5577;
+@define-color oma12 #FF9955;
+@define-color oma13 #FFDD66;
+@define-color oma14 #55FFBB;
+@define-color oma15 #FF77DD;
+
+/* Applied Colors */
+@define-color background @oma0;
+@define-color foreground @oma4;
+@define-color highlight @oma8;
+@define-color warning @oma13;
+@define-color critical @oma11;
+@define-color success @oma9;
+
+#custom-screenrecording-indicator.active {
+  color: @oma11;
+}
+
+#mpris {
+  background: @oma2;
+}
+
+#mpris:hover {
+  background: @oma3;
+}
+
+#mpris.playing {
+  color: @oma14;
+}
+
+#mpris.paused {
+  color: @oma7;
+}
+
+#mpris.spotify {
+  color: @oma14;
+}
+
+#mpris.firefox {
+  color: @oma12;
+}
+
+#mpris.chromium,
+#mpris.chrome {
+  color: @oma9;
+}
+
+#privacy-item {
+  color: @oma12;
+}
+
+#idle_inhibitor.activated {
+  color: @oma14;
+}

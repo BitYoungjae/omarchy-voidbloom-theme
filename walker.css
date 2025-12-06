@@ -1,0 +1,33 @@
+/* Deep Nebula Theme for Walker */
+/* Deep Space (Dark Backgrounds) */
+@define-color oma0 #14141E;
+@define-color oma1 #1A1A2E;
+@define-color oma2 #2A2A45;
+@define-color oma3 #3E3E66;
+
+/* Starlight (Light Foregrounds) */
+@define-color oma4 #DDEEFF;
+@define-color oma5 #E6F2FF;
+@define-color oma6 #FFFFFF;
+
+/* Nebula Accents (Primary Highlights) */
+@define-color oma7 #9D7CD8;
+@define-color oma8 #BB99FF;
+@define-color oma9 #66CCFF;
+@define-color oma10 #4488FF;
+
+/* Cosmic Burst (Semantic Colors) */
+@define-color oma11 #FF5577;
+@define-color oma12 #FF9955;
+@define-color oma13 #FFDD66;
+@define-color oma14 #55FFBB;
+@define-color oma15 #FF77DD;
+
+/* Applied Colors */
+@define-color base @oma0;
+@define-color background @oma0;
+@define-color foreground @oma4;
+@define-color text @oma4;
+@define-color selected-text @oma8;
+@define-color selected-background @oma2;
+@define-color border @oma8;
