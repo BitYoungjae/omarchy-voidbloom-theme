@@ -377,7 +377,6 @@ tooltip label {
    ======================================== */
 
 #mpris {
-  display: hidden;
   background-color: alpha(@oma2, 0.5);
 }
 
