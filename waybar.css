@@ -377,6 +377,7 @@ tooltip label {
    ======================================== */
 
 #mpris {
+  display: hidden;
   background-color: alpha(@oma2, 0.5);
 }
 
@@ -449,6 +450,7 @@ tooltip label {
 #custom-screenrecording-indicator.active {
   background-color: alpha(@oma11, 0.3);
   color: @oma11;
+  padding: 0.5px 6.5px 1px 4px;
   animation: blink 1s steps(12) infinite alternate;
 }
 
