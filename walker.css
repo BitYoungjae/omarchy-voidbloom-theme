@@ -1,18 +1,18 @@
 @define-color selected-text #BB99FF;
-@define-color text #DDEEFF;
-@define-color base #14141E;
-@define-color border #9D7CD8;
-@define-color foreground #DDEEFF;
-@define-color background #14141E;
-@define-color hover #2A2A45;
-@define-color selected-box #9D7CD8;
+@define-color text #C5C5DA;
+@define-color base #181824;
+@define-color border #A68EE0;
+@define-color foreground #C5C5DA;
+@define-color background #181824;
+@define-color hover #303048;
+@define-color selected-box #A68EE0;
 
 /* Additional styles */
 .box-wrapper {
   border-radius: 12px;
   box-shadow:
-    0 0 20px rgba(157, 124, 216, 0.25),
-    0 8px 32px rgba(20, 20, 30, 0.5);
+    0 0 20px rgba(166, 142, 224, 0.25),
+    0 8px 32px rgba(24, 24, 36, 0.5);
 }
 
 child:selected .item-box {

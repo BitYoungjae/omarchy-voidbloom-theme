@@ -1,20 +1,20 @@
 /* Deep Nebula Theme for SwayOSD */
 /* Deep Space (Dark Backgrounds) */
-@define-color oma0 #14141E;
-@define-color oma1 #1A1A2E;
-@define-color oma2 #2A2A45;
-@define-color oma3 #3E3E66;
+@define-color oma0 #181824;
+@define-color oma1 #202030;
+@define-color oma2 #303048;
+@define-color oma3 #454565;
 
 /* Starlight (Light Foregrounds) */
-@define-color oma4 #DDEEFF;
-@define-color oma5 #E6F2FF;
-@define-color oma6 #FFFFFF;
+@define-color oma4 #C5C5DA;
+@define-color oma5 #DEDEDE;
+@define-color oma6 #F0F0F5;
 
 /* Nebula Accents (Primary Highlights) */
-@define-color oma7 #9D7CD8;
+@define-color oma7 #A68EE0;
 @define-color oma8 #BB99FF;
-@define-color oma9 #66CCFF;
-@define-color oma10 #4488FF;
+@define-color oma9 #7ACAE0;
+@define-color oma10 #5F95DE;
 
 /* Applied Colors */
 @define-color background-color @oma0;
