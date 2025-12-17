@@ -5,6 +5,7 @@
 이 테마는 Omarchy 배포판을 위해 설계된 "Deep Nebula (심우주 성운)" 색상 팔레트의 **눈 피로도 감소 버전**입니다. 기존 고대비 네온 스타일에서 채도를 낮추고 극한 대비를 완화하여 장시간 사용 시 눈의 피로를 줄였습니다.
 
 **주요 개선 사항:**
+
 - 네온 채도 감소: 시맨틱 색상들의 형광기를 제거하고 파스텔/주얼리 톤으로 변경
 - 극한 대비 완화: 순백색(#FFFFFF) 제거, 배경색 명도 미세 상향
 - 색온도 조정: 차가운 아이스 블루를 중립적인 라벤더 그레이 톤으로 변경
@@ -15,20 +16,20 @@
 
 ### Deep Space (Dark Backgrounds)
 
-| Name | Hex       | RGB              | 용도                                      |
-| ---- | --------- | ---------------- | ----------------------------------------- |
-| oma0 | `#181824` | rgb(24, 24, 36)  | 가장 어두운 배경, 메인 배경색 (Deep Dark) |
-| oma1 | `#202030` | rgb(32, 32, 48)  | 패널 배경, 상태바 배경                    |
-| oma2 | `#303048` | rgb(48, 48, 72)  | 선택된 항목 배경, 입력창 배경             |
-| oma3 | `#454565` | rgb(69, 69, 101) | 비활성 테두리, 코멘트, UI 구분선          |
+| Name | Hex       | RGB                | 용도                                      |
+| ---- | --------- | ------------------ | ----------------------------------------- |
+| oma0 | `#181824` | rgb(24, 24, 36)    | 가장 어두운 배경, 메인 배경색 (Deep Dark) |
+| oma1 | `#202030` | rgb(32, 32, 48)    | 패널 배경, 상태바 배경                    |
+| oma2 | `#303048` | rgb(48, 48, 72)    | 선택된 항목 배경, 입력창 배경             |
+| oma3 | `#6A6A80` | rgb(106, 106, 128) | 비활성 테두리, 코멘트, UI 구분선          |
 
 ### Starlight (Light Foregrounds)
 
-| Name | Hex       | RGB                | 용도                                       |
-| ---- | --------- | ------------------ | ------------------------------------------ |
-| oma4 | `#C5C5DA` | rgb(197, 197, 218) | 기본 텍스트, 메인 전경색 (Lavender Gray)   |
-| oma5 | `#DEDEDE` | rgb(222, 222, 222) | 밝은 텍스트                                |
-| oma6 | `#F0F0F5` | rgb(240, 240, 245) | 가장 밝은 텍스트, 오프화이트 강조          |
+| Name | Hex       | RGB                | 용도                                     |
+| ---- | --------- | ------------------ | ---------------------------------------- |
+| oma4 | `#C5C5DA` | rgb(197, 197, 218) | 기본 텍스트, 메인 전경색 (Lavender Gray) |
+| oma5 | `#DEDEDE` | rgb(222, 222, 222) | 밝은 텍스트                              |
+| oma6 | `#F0F0F5` | rgb(240, 240, 245) | 가장 밝은 텍스트, 오프화이트 강조        |
 
 ### Nebula Accents (Primary Highlights)
 
@@ -41,13 +42,13 @@
 
 ### Cosmic Burst (Semantic Colors)
 
-| Name  | Hex       | RGB                | 용도                              |
-| ----- | --------- | ------------------ | --------------------------------- |
-| oma11 | `#ED6B86` | rgb(237, 107, 134) | 오류, 위험, 삭제 (Rose Red)       |
-| oma12 | `#ED9B70` | rgb(237, 155, 112) | 주황색 강조, 알림 (Coral)         |
-| oma13 | `#E6C875` | rgb(230, 200, 117) | 경고, 노란색 강조 (Warm Amber)    |
-| oma14 | `#6BCDB0` | rgb(107, 205, 176) | 성공, 추가, 문자열 (Seafoam Green)|
-| oma15 | `#D886C8` | rgb(216, 134, 200) | 보라/분홍 강조, 숫자 (Orchid Pink)|
+| Name  | Hex       | RGB                | 용도                               |
+| ----- | --------- | ------------------ | ---------------------------------- |
+| oma11 | `#ED6B86` | rgb(237, 107, 134) | 오류, 위험, 삭제 (Rose Red)        |
+| oma12 | `#ED9B70` | rgb(237, 155, 112) | 주황색 강조, 알림 (Coral)          |
+| oma13 | `#E6C875` | rgb(230, 200, 117) | 경고, 노란색 강조 (Warm Amber)     |
+| oma14 | `#6BCDB0` | rgb(107, 205, 176) | 성공, 추가, 문자열 (Seafoam Green) |
+| oma15 | `#D886C8` | rgb(216, 134, 200) | 보라/분홍 강조, 숫자 (Orchid Pink) |
 
 ---
 
@@ -58,7 +59,7 @@
 | 역할             | 색상 변수 | 실제 색상 |
 | ---------------- | --------- | --------- |
 | Active Border    | `$oma8`   | `#BB99FF` |
-| Inactive Border  | `$oma3`   | `#454565` |
+| Inactive Border  | `$oma3`   | `#6A6A80` |
 | Window Rounding  | 8px       | -         |
 | Inactive Opacity | 0.90      | -         |
 | Active Opacity   | 1.0       | -         |
@@ -86,34 +87,34 @@
 
 ### Walker (App Launcher)
 
-| 역할                | 색상 변수 | 실제 색상 |
-| ------------------- | --------- | --------- |
-| Base/Background     | `@base`   | `#181824` |
-| Foreground/Text     | `@text`   | `#C5C5DA` |
+| 역할                | 색상 변수        | 실제 색상 |
+| ------------------- | ---------------- | --------- |
+| Base/Background     | `@base`          | `#181824` |
+| Foreground/Text     | `@text`          | `#C5C5DA` |
 | Selected Text       | `@selected-text` | `#BB99FF` |
-| Selected Background | `@hover`  | `#303048` |
-| Border              | `@border` | `#A68EE0` |
+| Selected Background | `@hover`         | `#303048` |
+| Border              | `@border`        | `#A68EE0` |
 
 ### SwayOSD (On-Screen Display)
 
 | 역할               | 색상 변수 | 실제 색상 |
 | ------------------ | --------- | --------- |
 | Background         | `@oma0`   | `#181824` |
-| Border             | `@oma3`   | `#454565` |
+| Border             | `@oma3`   | `#6A6A80` |
 | Label              | `@oma4`   | `#C5C5DA` |
 | Image/Progress Bar | `@oma8`   | `#BB99FF` |
 
 ### Ghostty (Terminal)
 
-| 역할                  | 값                                                      |
-| --------------------- | ------------------------------------------------------- |
-| Theme                 | Custom (Deep Nebula Eye-Comfort)                        |
-| Background            | `#181824` (oma0)                                        |
-| Foreground            | `#C5C5DA` (oma4)                                        |
-| Selection BG          | `#454565` (oma3)                                        |
-| Cursor                | `#BB99FF` (oma8)                                        |
-| Palette 0-7 (Normal)  | `oma0`, `oma11`~`oma14`, `oma9`, `oma4` 매핑            |
-| Palette 8-15 (Bright) | `oma3`, `oma11`~`oma14`, `oma15`, `oma9`, `oma6` 매핑   |
+| 역할                  | 값                                                    |
+| --------------------- | ----------------------------------------------------- |
+| Theme                 | Custom (Deep Nebula Eye-Comfort)                      |
+| Background            | `#181824` (oma0)                                      |
+| Foreground            | `#C5C5DA` (oma4)                                      |
+| Selection BG          | `#6A6A80` (oma3)                                      |
+| Cursor                | `#BB99FF` (oma8)                                      |
+| Palette 0-7 (Normal)  | `oma0`, `oma11`~`oma14`, `oma9`, `oma4` 매핑          |
+| Palette 8-15 (Bright) | `oma3`, `oma11`~`oma14`, `oma15`, `oma9`, `oma6` 매핑 |
 
 ---
 
@@ -123,7 +124,7 @@
 
 ```
 oma0 → oma1 → oma2 → oma3
-#181824 → #202030 → #303048 → #454565
+#181824 → #202030 → #303048 → #6A6A80
 ```
 
 ### 텍스트 계층 (표준 → 밝은 → 강조)
