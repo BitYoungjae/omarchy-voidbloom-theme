@@ -1,4 +1,4 @@
-# Spearhead Theme - Color Palette Reference
+# Voidbloom Theme - Color Palette Reference
 
 ## Theme Base: Omarchy "Deep Nebula" (Eye-Comfort Edition)
 
